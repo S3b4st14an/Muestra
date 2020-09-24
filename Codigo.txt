@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stilo2.css">
+</head>
+<body>
+	<main id="contenedor">
+		<header>
+			<h1>Encabezado</h1>
+		</header>
+		<nav>
+			<h2>
+				Menú
+			</h2>
+		</nav>
+		<section>
+			<h1>
+				Contenido
+			</h1>
+		</section>
+		<aside>
+			<h2>
+				Publicidad
+			</h2>
+		</aside>
+		<footer>
+			<h2>
+				Pie de Página
+			</h2>
+		</footer>
+	</main>
+
+</body>
+</html>
+
+-----------------------------------------------
+css
+-----------------------------------------------
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#contenedor{
+	/*text-align: center;*/ 
+	background: yellow;
+	width:70%;
+	height: 100vh;
+	margin: auto;
+}
+header{
+	background: orange;
+	height:25vh;
+}
+header h1{
+	font-size: 40px;
+	text-align: center;
+	line-height: 25vh;
+}
+nav{
+	background: red;
+	height: 5vh;
+}
+nav h2{
+	font-size: 30px;
+	text-align: center;
+	line-height: 5vh;
+}
+section{
+	background: #f3f30c;
+	height: 65vh;
+	width: 80%;
+	float: left;
+}
+section h1{
+	font-size: 40px;
+	text-align: center;
+	line-height: 65vh;
+}
+aside{
+	background: gray;
+	height: 60.6vh;
+	width: 20%;
+	float: right;
+}
+aside h2{
+	font-size: 30px;
+	text-align: center;
+	line-height: 65vh;
+}
+footer{
+	text-align: center;
+	background: blue;
+	height: 5vh;
+	line-height: 5vh;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{*/
+	/*background-image: url("../fondos/deku.jpg");
+	background-size: 100% 100vh; */
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	/*background-repeat: no-repeat;
+}*/
